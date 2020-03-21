@@ -64,3 +64,5 @@ call vundle#begin()
     "Bundle 'Yggdroot/indentLine'
     
    " Bundle 'bramblex/ranger.vim'
+call vundle#end()            " required
+filetype plugin indent on    " required
