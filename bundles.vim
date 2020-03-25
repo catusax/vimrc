@@ -16,8 +16,8 @@ call vundle#begin()
     Plugin 'bramblex/molokai'
 
 " SuperTab 把补全键换成Tab
-    Bundle "ervandew/supertab"
-    let g:SuperTabDefaultCompletionType = '<C-n>'
+    "Bundle "ervandew/supertab"
+    "let g:SuperTabDefaultCompletionType = '<C-n>'
 
 " 自动补全单引号，双引号等
     Bundle 'Raimondi/delimitMate'

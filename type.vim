@@ -4,7 +4,7 @@ au FileType * :call SetTabWidth(4)
 au FileType * :set bufhidden=hide
 
 " ruby on rails
-au FileType ruby,eruby,coffee,yaml :call SetTabWidth(2)
+au FileType ruby,eruby,coffee,yaml,yml :call SetTabWidth(2)
 
 " html or js
 au FileType javascript,html :call SetTabWidth(2)
