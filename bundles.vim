@@ -19,13 +19,13 @@ call vundle#begin()
     Plugin 'bramblex/molokai'
 
 " SuperTab 把补全键换成Tab
-    "Bundle "ervandew/supertab"
+    "Bundle 'ervandew/supertab'
     "let g:SuperTabDefaultCompletionType = '<C-n>'
 
 " 自动补全单引号，双引号等
-    Bundle 'Raimondi/delimitMate'
+    Plugin 'Raimondi/delimitMate'
 
-    Bundle 'tpope/vim-surround'
+    "Bundle 'tpope/vim-surround'
     " cs + a + b chang a -> b
     " ys + (text object) add
     " c/d/v + i + '/"/(/{/</[ 可以操作环绕
@@ -33,39 +33,21 @@ call vundle#begin()
     au FileType python let b:delimitMate_nesting_quotes = ['"']
 
 " 自动补全html/xml标签
-    Bundle 'docunext/closetag.vim'
-    let g:closetag_html_style=1
+    "Bundle 'docunext/closetag.vim'
+    "let g:closetag_html_style=1
 
 " 快速注释
-    Bundle 'scrooloose/nerdcommenter'
+    "Bundle 'scrooloose/nerdcommenter'
 
-" MiniBufexpl.vim
-    "Bundle 'fholgado/minibufexpl.vim'
-    "Bundle 'bramblex/minibufexpl.vim'
-    Bundle 'vim-airline/vim-airline'
-    Bundle 'vim-airline/vim-airline-themes'
+    Plugin 'vim-airline/vim-airline'
+    Plugin 'vim-airline/vim-airline-themes'
 
  "mileszs/ack.vim
-    Bundle 'mileszs/ack.vim'
+    "搜索工具
+    "Bundle 'mileszs/ack.vim'
 
-" sheerun/vim-polyglot
-    Bundle 'sheerun/vim-polyglot'
-    Bundle 'dag/vim-fish'
-    Bundle 'raichoo/purescript-vim'
-    "Bundle 'lukerandall/haskellmode-vim'
+    " 多种语言格式支持
+    Plugin 'sheerun/vim-polyglot'
 
-" kien/ctrlp.vim
-   " Bundle 'kien/ctrlp.vim'
-
-" bramblex/conque
-    "Bundle 'bramblex/conque'
-
-" scrooloose/syntastic
-    "Bundle 'scrooloose/syntastic'
-
-" Yggdroot/indentLine
-    "Bundle 'Yggdroot/indentLine'
-    
-   " Bundle 'bramblex/ranger.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
