@@ -67,4 +67,8 @@
     set nobackup
     set noswapfile
 
+    " 开启历史记录
+    set undofile
+    set undodir=~/.vim/undodir
+
     "set clipboard+=unnamed " 共享剪贴板
