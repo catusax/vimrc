@@ -6,9 +6,13 @@ https://github.com/bramblex/BlxVimrc
 rm ~/.vim ~/.vimrc -rf
 git clone https://github.com/coolrc136/vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 进入Vim，安装插件
 ```
 :BundleInstall
 ```
+
+### 快捷键
+F5 粘贴模式
+F4 历史记录

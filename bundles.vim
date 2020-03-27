@@ -13,7 +13,7 @@ call vundle#begin()
     Plugin 'mbbill/undotree'
 
 " Vundle插件管理器
-    Plugin 'gmarik/Vundle.vim'
+    Plugin 'VundleVim/Vundle.vim'
 
 " BlxMolokai
     Plugin 'bramblex/molokai'
