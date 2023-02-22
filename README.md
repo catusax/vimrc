@@ -4,7 +4,7 @@ https://github.com/bramblex/BlxVimrc
 ### 安装
 ```
 rm ~/.vim ~/.vimrc -rf
-git clone https://github.com/coolrc136/vimrc.git ~/.vim
+git clone https://github.com/catusax/vimrc.git ~/.vim
 ln -s ~/.vim/vimrc ~/.vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
